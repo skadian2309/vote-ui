@@ -2,7 +2,7 @@
 FROM python:3.7-alpine
 
 # Set the application directory
-#WORKDIR /app
+WORKDIR /app
 
 # Install our requirements.txt
 ADD requirements.txt /app/requirements.txt
