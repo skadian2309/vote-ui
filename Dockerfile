@@ -2,7 +2,7 @@
 FROM python:3.7-alpine
 
 
-
+WORKDIR /app
 # Install our requirements.txt
 ADD requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt
